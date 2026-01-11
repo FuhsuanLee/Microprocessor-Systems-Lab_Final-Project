@@ -1,0 +1,1 @@
+cmd_/home/nvidia/final/Code/driver/log_driver.ko := ld -EL -r  -T ./scripts/module-common.lds -T ./arch/arm64/kernel/module.lds --build-id  -o /home/nvidia/final/Code/driver/log_driver.ko /home/nvidia/final/Code/driver/log_driver.o /home/nvidia/final/Code/driver/log_driver.mod.o ;  true
